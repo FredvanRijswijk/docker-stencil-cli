@@ -4,7 +4,7 @@
 FROM node:18.5.0
 
 # set container working directory
-WORKDIR /
+WORKDIR /theme
 
 # install the cli
 RUN npm -g config set user root
